@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Red+Rose&family=Shantell+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    background-color:gray;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top: 140px;
+    left: 400px;
+    border: 1px solid #fff ;
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px;
+}
+#input{
+    margin-top: 40px;
+    width: 52px;
+    padding: 9px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+#guess{
+    width: 90px;
+    padding: 12px ;
+    border: none;
+    border-radius: 5px;
+    background-color:blue;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 15px;
+}
+h1{
+    font-size: 22px;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+}
